@@ -10,12 +10,9 @@ export default function BookingPanel() {
 				<a href="http://www.booking.com/Share-BY2Hne">
 					<img alt="booking.com" className="icon" src={bookingcom2}></img>
 				</a>
-				<img
-					alt="airbnb"
-					href="https://www.airbnb.com/rooms/47764871"
-					className="icon"
-					src={airbnb2}
-				></img>
+				<a href="https://www.airbnb.com/rooms/47764871">
+					<img alt="airbnb" className="icon" src={airbnb2}></img>
+				</a>
 			</div>
 		</div>
 	);
