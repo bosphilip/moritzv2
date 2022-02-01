@@ -98,7 +98,7 @@ export default function MobileNav() {
 							</li>
 							<li className="MobileNavListItem mobileNavIcon">
 								<a
-									href="http://www.booking.com/Share-BY2Hne"
+									href="https://www.airbnb.com/rooms/47764871"
 									onClick={handleClose}
 								>
 									<img
@@ -108,7 +108,7 @@ export default function MobileNav() {
 									></img>
 								</a>
 								<a
-									href="https://www.airbnb.com/rooms/47764871"
+									href="http://www.booking.com/Share-BY2Hne"
 									onClick={handleClose}
 								>
 									<img
