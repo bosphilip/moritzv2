@@ -103,12 +103,14 @@ export default function MobileNav() {
 									rel="noopener noreferrer"
 								>
 									<img
+										target={"_blank"}
 										alt="booking.com"
 										className="navIcon navIcons"
 										src={airbnb}
 									></img>
 								</a>
 								<a
+									target={"_blank"}
 									href="http://www.booking.com/Share-BY2Hne"
 									onClick={handleClose}
 									rel="noopener noreferrer"

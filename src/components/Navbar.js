@@ -29,12 +29,14 @@ export default function Nav() {
 				</li>
 				<li className="navListItem">
 					<a
+						target={"_blank"}
 						rel="noopener noreferrer"
 						href="https://www.airbnb.com/rooms/47764871"
 					>
 						<img alt="booking" className="navIcon navIcons" src={airbnb}></img>
 					</a>
 					<a
+						target={"_blank"}
 						rel="noopener noreferrer"
 						href="http://www.booking.com/Share-BY2Hne"
 					>

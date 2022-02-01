@@ -7,10 +7,15 @@ export default function BookingPanel() {
 		<div className="iconPanel">
 			<h3 className="bookingHeading">Zur Buchung:</h3>
 			<div className="icons">
-				<a rel="noopener noreferrer" href="http://www.booking.com/Share-BY2Hne">
+				<a
+					target={"_blank"}
+					rel="noopener noreferrer"
+					href="http://www.booking.com/Share-BY2Hne"
+				>
 					<img alt="booking.com" className="icon" src={bookingcom2}></img>
 				</a>
 				<a
+					target={"_blank"}
 					rel="noopener noreferrer"
 					href="https://www.airbnb.com/rooms/47764871"
 				>
