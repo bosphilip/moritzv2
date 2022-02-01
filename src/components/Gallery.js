@@ -19,113 +19,112 @@ import Moritzhagen12 from "../assets/Moritzhagen12.jpeg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
 export default function MasonryImageList() {
 	return (
-		<div>
-			<div className="galleryBox">
-				<h3>Gallerie</h3>
-				<Swiper
-					cssMode={true}
-					slidesPerView={1}
-					navigation={true}
-					pagination={true}
-					spaceBetween={50}
-					autoplay={{
-						delay: 2500,
-						disableOnInteraction: false,
-					}}
-					loop={true}
-					mousewheel={true}
-					keyboard={true}
-					modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
-					className="mySwiper"
-				>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen1}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen2}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen3}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen4}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen5}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen6}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen7}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen8}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen9}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen10}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen11}
-						></img>
-					</SwiperSlide>
-					<SwiperSlide>
-						<img
-							alt="Gallerie Bild"
-							className="galleryImage"
-							src={Moritzhagen12}
-						></img>
-					</SwiperSlide>
-				</Swiper>
-			</div>
+		<div className="galleryBox">
+			<h3>Gallerie</h3>
+			<Swiper
+				slidesPerView={1}
+				navigation={true}
+				removeClippedSubviews={false}
+				pagination={true}
+				spaceBetween={50}
+				autoplay={{
+					delay: 2500,
+					disableOnInteraction: false,
+				}}
+				loop={true}
+				mousewheel={true}
+				keyboard={true}
+				modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
+				className="mySwiper"
+			>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen1}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen2}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen3}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen4}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen5}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen6}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen7}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen8}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen9}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen10}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen11}
+					></img>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						alt="Gallerie Bild"
+						className="galleryImage"
+						src={Moritzhagen12}
+					></img>
+				</SwiperSlide>
+			</Swiper>
 		</div>
 	);
 }

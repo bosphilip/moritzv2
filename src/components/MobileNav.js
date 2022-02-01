@@ -72,7 +72,7 @@ export default function MobileNav() {
 							<li className="MobileNavListItem">
 								<NavLink
 									className={"mobileNavLink"}
-									to="/gallerie"
+									to="/galerie"
 									onClick={handleClose}
 								>
 									Gallerie
