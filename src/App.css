@@ -1,0 +1,353 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.contactSec {
+	display: flex;
+	align-items: center;
+}
+
+.contactSecText {
+	padding-left: 10px;
+}
+.contactCont {
+	margin: 50px 0;
+	margin-left: 50%;
+	transform: translate(-50%);
+	text-align: left;
+}
+.About {
+	padding-top: 100px;
+}
+
+/***************************************************************************************
+Reusable Classes 
+***************************************************************************************/
+
+.subHeadings {
+	font-size: 30px;
+}
+.regularMargins {
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+.mainHeading {
+	font-size: 55px;
+}
+
+/***************************************************************************************
+About 
+***************************************************************************************/
+
+.aboutContainer {
+	display: flex;
+	align-items: center;
+}
+.aboutHeading {
+	font-size: 30px;
+}
+.aboutCard {
+	width: 50%;
+}
+.aboutText_ {
+	margin-left: 30%;
+	margin-right: 10%;
+}
+.aboutImage_ {
+	height: 500px;
+}
+
+/***************************************************************************************
+Gallery
+***************************************************************************************/
+
+.galleryBox {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.galleryBox h3 {
+	font-size: 40px;
+	padding: 0;
+	text-align: center;
+}
+.mySwiper {
+	width: 50%;
+	text-align: center;
+}
+.galleryImage {
+	height: 70vh;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	background-color: white;
+	background-color: rgba(142, 142, 142, 0.345);
+	right: 10px;
+	padding: 20px;
+	border-radius: 10px;
+
+	color: rgba(255, 255, 255, 0.815) !important;
+	fill: rgba(255, 255, 255, 0.392) !important;
+	stroke: rgba(0, 0, 0, 0.523) !important;
+}
+.swiper-pagination-bullet-active {
+	background-color: grey !important;
+}
+
+/***************************************************************************************
+Hero Section 
+***************************************************************************************/
+
+.heroImage {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	margin-bottom: 0;
+	/* opacity: 0.8; */
+	overflow: hidden;
+	filter: brightness(0.9);
+}
+.heroHeading {
+	font-size: 55px;
+	color: rgb(29, 29, 29);
+	overflow: hidden;
+	background-color: rgba(252, 252, 252, 0.666);
+	padding: 60px 20px;
+	border-radius: 10px;
+}
+.heroHeadingAccent {
+	font-size: 55px;
+	color: rgb(99, 145, 64);
+	overflow: hidden;
+	border-bottom: 3px solid black;
+}
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.centerBottom {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	color: black;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.783);
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/***************************************************************************************
+Navigation 
+***************************************************************************************/
+
+.mobileModal {
+	display: none;
+}
+.navListCont {
+	position: fixed;
+	z-index: 1000;
+	left: 50%;
+	max-height: 100px;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	background-color: white;
+	width: 100%;
+	border-bottom: grey 2px solid;
+}
+.navIcon {
+	width: 25px;
+	vertical-align: middle;
+	transition: 0.8s;
+}
+.navIcon:hover {
+	transform: rotateY(360deg);
+}
+.navListItem {
+	transition: 0.2s;
+	font-size: 20px;
+	vertical-align: middle;
+
+	padding: 10px 0;
+}
+.navLink {
+	text-decoration: none;
+	color: black;
+	padding-bottom: 5px;
+	border-bottom: 1px black solid;
+	transition: 0.2s;
+}
+.navLink:hover {
+	color: black;
+	padding-bottom: 10px;
+}
+
+.navIcons {
+	padding: 0 5px;
+}
+.navList {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	color: black;
+	font-size: 22px;
+}
+
+/***************************************************************************************
+Icon Panel: 
+***************************************************************************************/
+
+.icon {
+	height: 30px;
+	padding: 10px;
+}
+.icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bookingHeading {
+	font-size: 30px;
+}
+.iconPanel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: rgb(249, 249, 249);
+	padding: 80px 30%;
+}
+.mapCont {
+	height: 60vh;
+	padding-top: 50px;
+
+	border: none;
+}
+
+/***************************************************************************************
+Responsive:
+***************************************************************************************/
+
+@media screen and (max-width: 800px) {
+	.centerBottom {
+		display: none;
+	}
+	.galleryBox {
+		padding-top: 0px;
+		padding-bottom: 00px;
+	}
+	.openButton {
+		font-size: 50px;
+
+		pointer-events: none;
+		user-select: none;
+		transform: translateY(25%);
+		transition: 1s;
+	}
+	.butt {
+		position: absolute;
+		padding: 20px;
+		background-color: rgba(242, 242, 242, 0.708);
+		border-radius: 100%;
+	}
+
+	.openButtonContainer {
+		cursor: pointer;
+		z-index: 9000;
+		top: 20px;
+		position: fixed;
+		right: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	.modalBox {
+		height: 100vh;
+		width: 100vh;
+		margin: 0;
+		border: black solid 10px;
+		position: absolute;
+		padding: 0;
+	}
+	.modalBox:active {
+		border: black solid 10px;
+	}
+	.mobileModal {
+		display: block;
+
+		background-color: rgba(0, 0, 0, 0.756);
+	}
+	.mobileNavLink {
+		color: white !important;
+		font-size: 45px;
+		text-decoration: none;
+	}
+	.MobileNavList {
+		text-decoration: none;
+		list-style: none;
+		margin-left: 0;
+		padding-top: 50px;
+	}
+	.heroHeading {
+		font-size: 40px;
+		padding: 20px auto;
+	}
+	.iconPanel {
+		flex-direction: column;
+		padding: 50px 0;
+	}
+	.mobileNavIcon {
+		padding-top: 50px;
+	}
+	.regularMargins {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.mySwiper {
+		width: 100%;
+	}
+	.galleryImage {
+		height: auto;
+		width: 100%;
+	}
+	.navListCont {
+		display: none;
+	}
+	.aboutContainer {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.aboutCard {
+		width: 100%;
+	}
+	.aboutText_ {
+		margin: 20px;
+	}
+	.aboutImage_ {
+		width: 100%;
+		height: auto;
+	}
+	.mapCont {
+		height: 60vh;
+		padding-top: 0;
+	}
+	.contactCont {
+		margin: 30px;
+		text-align: center;
+		transform: none;
+	}
+	.contactSec {
+		display: flex;
+		align-items: center;
+	}
+	.About {
+		padding-top: 0px;
+	}
+}
