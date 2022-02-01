@@ -31,7 +31,7 @@ export default function Nav() {
 					<a href="http://www.booking.com/Share-BY2Hne">
 						<img alt="booking" className="navIcon navIcons" src={airbnb}></img>
 					</a>
-					<a href="http://www.airbnb.com/">
+					<a href="https://www.airbnb.com/rooms/47764871">
 						<img
 							alt="airbnb"
 							className="navIcon navIcons"

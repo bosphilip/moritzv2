@@ -107,7 +107,10 @@ export default function MobileNav() {
 										src={airbnb}
 									></img>
 								</a>
-								<a href="http://www.airbnb.com/" onClick={handleClose}>
+								<a
+									href="https://www.airbnb.com/rooms/47764871"
+									onClick={handleClose}
+								>
 									<img
 										alt="airbnb.com"
 										className="navIcon navIcons"
