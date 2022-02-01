@@ -13,8 +13,8 @@ export default function Nav() {
 					</NavLink>
 				</li>
 				<li className="navListItem">
-					<NavLink className={"navLink"} to="/gallerie">
-						Gallerie
+					<NavLink className={"navLink"} to="/galerie">
+						Galerie
 					</NavLink>
 				</li>
 				<li className="navListItem">
