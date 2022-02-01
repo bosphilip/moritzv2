@@ -58,8 +58,8 @@ export default function MobileNav() {
 
 			<Modal className="mobileModal" style={{ outline: "none" }} open={open}>
 				<Slide direction="up" in={open} out={open === false}>
-					<div className="modalComp">
-						<ul className="MobileNavList">
+					<div className="modalComp" style={{ outline: "none" }}>
+						<ul className="MobileNavList" style={{ outline: "none" }}>
 							<li className="MobileNavListItem">
 								<NavLink
 									className={"mobileNavLink"}
