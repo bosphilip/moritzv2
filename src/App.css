@@ -280,7 +280,7 @@ Responsive:
 	}
 	.mobileModal {
 		display: block;
-
+		outline: none;
 		background-color: rgba(0, 0, 0, 0.756);
 	}
 	.mobileNavLink {
