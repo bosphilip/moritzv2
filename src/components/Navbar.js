@@ -28,10 +28,16 @@ export default function Nav() {
 					</NavLink>
 				</li>
 				<li className="navListItem">
-					<a href="https://www.airbnb.com/rooms/47764871">
+					<a
+						rel="noopener noreferrer"
+						href="https://www.airbnb.com/rooms/47764871"
+					>
 						<img alt="booking" className="navIcon navIcons" src={airbnb}></img>
 					</a>
-					<a href="http://www.booking.com/Share-BY2Hne">
+					<a
+						rel="noopener noreferrer"
+						href="http://www.booking.com/Share-BY2Hne"
+					>
 						<img
 							alt="airbnb"
 							className="navIcon navIcons"

@@ -100,6 +100,7 @@ export default function MobileNav() {
 								<a
 									href="https://www.airbnb.com/rooms/47764871"
 									onClick={handleClose}
+									rel="noopener noreferrer"
 								>
 									<img
 										alt="booking.com"
@@ -110,6 +111,7 @@ export default function MobileNav() {
 								<a
 									href="http://www.booking.com/Share-BY2Hne"
 									onClick={handleClose}
+									rel="noopener noreferrer"
 								>
 									<img
 										alt="airbnb.com"
